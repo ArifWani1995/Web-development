@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Personal portfolio showcasing skills, projects, and achievements." />
+  <title>Alex Carter | Full-Stack Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="background-glow"></div>
+  <header class="site-header" id="top">
+    <nav class="nav">
+      <a class="logo" href="#top">AC</a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="theme-toggle" aria-label="Toggle dark mode">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">Hi, I'm</p>
+        <h1>Alex Carter<br /><span>Full-Stack Developer</span></h1>
+        <p class="lead">
+          I design and build digital experiences that are fast, accessible, and delightful. Passionate about modern web apps, data-driven storytelling, and meaningful user journeys.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn ghost" href="#contact">Contact Me</a>
+        </div>
+        <div class="hero-metrics">
+          <div>
+            <h3>30+</h3>
+            <p>Projects Delivered</p>
+          </div>
+          <div>
+            <h3>4</h3>
+            <p>Hackathon Wins</p>
+          </div>
+          <div>
+            <h3>1200+</h3>
+            <p>Hours of Practice</p>
+          </div>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-visual">
+          <div class="floating-card">
+            <h4>Currently focused on</h4>
+            <p>Next.js, UI/UX, and applied AI for real-world products.</p>
+            <div class="pill">Open to internships & freelance</div>
+          </div>
+          <div class="orbit">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading">
+        <h2>Skills & Tools</h2>
+        <p>My toolkit spans front-end, back-end, and product design workflows.</p>
+      </div>
+      <div class="skills-grid" id="skills-grid"></div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading">
+        <h2>Featured Projects</h2>
+        <p>Filter by category or search to explore the work I’m proud of.</p>
+      </div>
+      <div class="project-filters">
+        <input type="text" id="project-search" placeholder="Search projects..." />
+        <div class="filter-buttons" id="filter-buttons"></div>
+      </div>
+      <div class="projects-grid" id="projects-grid"></div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-heading">
+        <h2>About Me</h2>
+        <p>Driven by curiosity, I build products that solve real problems.</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-card">
+          <h3>Education</h3>
+          <ul>
+            <li>B.Sc. in Computer Science — University of Innovation (2021 - 2025)</li>
+            <li>Minor in Human-Centered Design</li>
+          </ul>
+        </div>
+        <div class="about-card">
+          <h3>Certifications</h3>
+          <ul>
+            <li>Google UX Design Professional Certificate</li>
+            <li>AWS Certified Cloud Practitioner</li>
+            <li>Meta Front-End Developer</li>
+          </ul>
+        </div>
+        <div class="about-card">
+          <h3>Career Goals</h3>
+          <p>
+            I’m focused on becoming a product-minded engineer who ships accessible, data-informed experiences while mentoring the next wave of creators.
+          </p>
+        </div>
+        <div class="about-card">
+          <h3>Resume</h3>
+          <p>Download a PDF copy of my resume and learn more about my experience.</p>
+          <a class="btn primary" href="assets/resume/resume.pdf" download>Download Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="testimonials">
+      <div class="section-heading">
+        <h2>Testimonials</h2>
+        <p>Kind words from mentors and collaborators.</p>
+      </div>
+      <div class="testimonials-grid" id="testimonials-grid"></div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="section-heading">
+        <h2>Contact Me</h2>
+        <p>Let’s connect about internships, freelance work, or collaboration opportunities.</p>
+      </div>
+      <div class="contact-grid">
+        <form class="contact-form" id="contact-form">
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@email.com" required />
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell me about your project" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn primary">Send Message</button>
+          <p class="form-status" id="form-status" aria-live="polite"></p>
+        </form>
+        <div class="contact-card">
+          <h3>Let’s build something together</h3>
+          <p>
+            I’m always excited to meet new people. You can reach me through social platforms or send a direct message using the form.
+          </p>
+          <div class="social-links">
+            <a href="https://github.com/yourname" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="https://linkedin.com/in/yourname" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+            <a href="mailto:hello@example.com"><i class="fa-solid fa-envelope"></i> Email</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2024 Alex Carter. Crafted with creativity and clean code.</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
