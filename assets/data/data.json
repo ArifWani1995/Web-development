@@ -1,0 +1,72 @@
+{
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "items": [
+        { "name": "JavaScript", "level": 90, "icon": "fa-brands fa-js" },
+        { "name": "Python", "level": 85, "icon": "fa-brands fa-python" },
+        { "name": "Java", "level": 75, "icon": "fa-brands fa-java" },
+        { "name": "SQL", "level": 78, "icon": "fa-solid fa-database" }
+      ]
+    },
+    {
+      "category": "Web Technologies",
+      "items": [
+        { "name": "HTML5", "level": 95, "icon": "fa-brands fa-html5" },
+        { "name": "CSS3", "level": 92, "icon": "fa-brands fa-css3-alt" },
+        { "name": "REST APIs", "level": 82, "icon": "fa-solid fa-code" },
+        { "name": "Accessibility", "level": 70, "icon": "fa-solid fa-universal-access" }
+      ]
+    },
+    {
+      "category": "Tools & Frameworks",
+      "items": [
+        { "name": "React", "level": 80, "icon": "fa-brands fa-react" },
+        { "name": "Node.js", "level": 78, "icon": "fa-brands fa-node" },
+        { "name": "Git & GitHub", "level": 88, "icon": "fa-brands fa-github" },
+        { "name": "Figma", "level": 72, "icon": "fa-brands fa-figma" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Portfolio Launchpad",
+      "description": "A responsive portfolio template with dynamic sections, reusable components, and accessible design patterns.",
+      "technologies": ["HTML5", "CSS3", "JavaScript"],
+      "category": "Web",
+      "image": "assets/images/project-1.svg",
+      "demo": "https://example.com",
+      "source": "https://github.com/yourname/portfolio-launchpad"
+    },
+    {
+      "title": "Insights Dashboard",
+      "description": "Interactive analytics dashboard with filterable metrics, charts, and export-ready reports.",
+      "technologies": ["React", "Node.js", "Chart.js"],
+      "category": "Data Science",
+      "image": "assets/images/project-2.svg",
+      "demo": "https://example.com",
+      "source": "https://github.com/yourname/insights-dashboard"
+    },
+    {
+      "title": "Smart Campus Assistant",
+      "description": "Campus helper app that delivers smart notifications, event tracking, and AI-assisted study tips.",
+      "technologies": ["Python", "Flask", "SQLite"],
+      "category": "ML",
+      "image": "assets/images/project-3.svg",
+      "demo": "https://example.com",
+      "source": "https://github.com/yourname/smart-campus-assistant"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Alex Morgan",
+      "role": "Tech Mentor",
+      "quote": "A creative builder who blends clean UI with thoughtful engineering. Always delivers on time."
+    },
+    {
+      "name": "Jamie Patel",
+      "role": "Hackathon Judge",
+      "quote": "Impressed by the clarity of the presentation and the ability to communicate technical ideas." 
+    }
+  ]
+}
